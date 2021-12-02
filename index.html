@@ -5,6 +5,7 @@
   setTimeout(function(){ 
     var url = "intent://open/#Intent;scheme=turito;package=com.yuppmaster;end"
     const a = document.createElement('a')
+            a.target = '_blank';
     a.href = url
     a.click()
   }, 5000);
